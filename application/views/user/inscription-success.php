@@ -1,0 +1,2 @@
+<p>Félicitations <strong><?= $this->input->post('pseudo');?></strong>, vous êtes correctement inscrit dans le jeu.</p>
+<p>Vous pouvez dès à présent <a href="<?= site_url('user/connexion');?>">vous connecter</a> et commencer à jouer.</p>
