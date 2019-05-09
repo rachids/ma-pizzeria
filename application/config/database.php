@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql-dichra.alwaysdata.net';
-$db['default']['username'] = 'dichra_pizz';
-$db['default']['password'] = 'oursina';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'THE_DATABASE_USERNAME';
+$db['default']['password'] = 'THE_PASSWORD';
 $db['default']['dbdriver'] = 'mysql';
-$db['default']['database'] = 'dichra_pizza';
+$db['default']['database'] = 'THE_DB_NAME';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
